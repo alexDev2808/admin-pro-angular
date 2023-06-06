@@ -1,15 +1,19 @@
 <div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
+  <div class="col-6">
+    <app-dona title="Popularidad"></app-dona>
+  </div>
 
-                <div style="display: block">
-                    <canvas baseChart class="chart"
-                            [data]="doughnutChartData"
-                            [type]="doughnutChartType">
-                    </canvas>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="col-6">
+    <app-dona title="Pruebas" [labelsDona]="labels" [dataDona]="data"></app-dona>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <app-dona></app-dona>
+  </div>
+
+  <div class="col-6">
+    <app-dona title="Satisfaccion"></app-dona>
+  </div>
 </div>

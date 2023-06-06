@@ -10,8 +10,6 @@ import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
 
-import { NgChartsModule } from 'ng2-charts';
-
 
 @NgModule({
   declarations: [
@@ -26,7 +24,6 @@ import { NgChartsModule } from 'ng2-charts';
     AppRoutingModule,
     FormsModule,
     ComponentsModule,
-    NgChartsModule
   ],
   exports: [
     DashboardComponent,
